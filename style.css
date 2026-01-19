@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2f4f7;
+    padding: 40px;
+}
+
+.resume {
+    max-width: 800px;
+    background: white;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header h3 {
+    color: #555;
+    margin: 8px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* SECTIONS */
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+/* EDUCATION & EXPERIENCE */
+.edu-item,
+.exp-item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.year {
+    width: 120px;
+    font-weight: bold;
+    color: #444;
+}
+
+.details h4 {
+    font-size: 16px;
+}
+
+.details p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* CERTIFICATE LINKS */
+.cert-links a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.cert-links a:hover {
+    text-decoration: underline;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.skills li {
+    background: #eee;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* SOCIAL LINKS */
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.socials a i {
+    margin-right: 8px;
+}
+
+.socials a:hover {
+    color: #0066cc;
+}
